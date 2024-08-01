@@ -1,0 +1,50 @@
+.header__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .header__collection{
+        display: flex;
+
+        ul{
+            display: flex;
+            gap: 40px;
+
+            li{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 18.75px;
+                text-align: center;
+                color: rgba(39, 39, 39, 1);                
+                list-style: none;
+
+                select{
+                    border: none;
+                    font-weight: 600;
+
+                    &:hover{
+                        cursor: pointer;
+                        color: yellowgreen;
+                    }
+                }
+
+                &:hover{
+                    cursor: pointer;
+                    color: yellowgreen;
+                }
+            }
+        }
+    }
+
+    .header__item{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+
+
+

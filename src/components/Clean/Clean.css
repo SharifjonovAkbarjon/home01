@@ -1,0 +1,79 @@
+.clean__part {
+  width: 100%;
+  background: rgb(247, 248, 250);
+  padding: 100px 0;
+}
+
+.clean__body {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.clean__body .clean__title {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  justify-content: center;
+  width: 55%;
+}
+.clean__body .clean__title .clean__head {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.clean__body .clean__title .clean__head h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 46.6px;
+  letter-spacing: -0.8999999166px;
+  text-align: left;
+  color: rgb(29, 37, 44);
+}
+.clean__body .clean__title .clean__head p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.8px;
+  text-align: left;
+  color: rgb(86, 178, 128);
+}
+.clean__body .clean__title .clean__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.clean__body .clean__title .clean__text span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.clean__body .clean__title .clean_btn {
+  display: flex;
+}
+.clean__body .clean__title .clean_btn button {
+  padding: 8px 44px;
+  background: rgb(86, 178, 128);
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  transition: 0.7s;
+}
+.clean__body .clean__title .clean_btn button:hover {
+  cursor: pointer;
+  background: yellowgreen;
+}
+.clean__body .clean__img {
+  width: 45%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background: white;
+}
+.clean__body .clean__img img {
+  width: 100%;
+  box-shadow: 0px 4px 94px 0px rgba(123, 123, 123, 0.35);
+}/*# sourceMappingURL=Clean.css.map */
