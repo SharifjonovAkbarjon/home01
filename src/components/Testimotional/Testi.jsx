@@ -2,7 +2,9 @@ import React from 'react'
 import '../Testimotional/Testi.scss'
 import img from '../asset/img.png'
 import star from '../asset/Stars.png'
-
+import stars from '../asset/stars5.png'
+import boy from '../asset/bg.png'
+import girl from '../asset/bg_girl.png'
 
 const parts = [
     {
@@ -14,14 +16,14 @@ const parts = [
     },
     {
         id: 1,
-        url: img,
-        Image: star,
+        url: boy,
+        Image: stars,
         title: " “Raccomended for everyone” ",
         name:"Edoardo"
     },
     {
         id: 1,
-        url: img,
+        url: girl,
         Image: star,
         title: " “Looks very natural, the smell is awesome” ",
         name:"Mart"

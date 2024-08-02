@@ -1,9 +1,10 @@
 import React from 'react'
-import "../Products/Products.scss"
+import "../Popular/Popular.scss"
 import rasm from '../asset/image 1.png'
 import rasm2 from '../asset/image 2.png'
 import rasm3 from '../asset/image 3.png'
 import rasm4 from '../asset/image 4.png'
+
 
 const data = [
     {
@@ -29,42 +30,17 @@ const data = [
         url: rasm4,
         title: "Juicy Lemon",
         price: "9.99 $"
-    },
-    {
-        id: 5,
-        url: rasm,
-        title: "Product name",
-        price: 9.99
-    },
-    {
-        id: 6,
-        url: rasm2,
-        title: "Fragrant Cinnamon",
-        price: "9.99 $"
-    },
-    {
-        id: 7,
-        url: rasm3,
-        title: "Summer Cherries",
-        price: 9.99
-    },
-    {
-        id: 8,
-        url: rasm4,
-        title: "Clean Lavander",
-        price: "9.99 $"
     }
 ]
 
 
-
-const Products = () => {
-    return (
-        <>
-            <div className="container">
+const Pooular = () => {
+  return (
+    <>
+          <div className="container">
                 <div className="product__body">
                     <div className='product__head'>
-                        <h3>Products</h3>
+                        <h3>Popular</h3>
                         <p>Order it for you or for your beloved ones </p>
                     </div>
                     <div className='product__wrapper'>
@@ -82,8 +58,8 @@ const Products = () => {
                     </div>
                 </div>
             </div>
-        </>
-    )
+    </>
+  )
 }
 
-export default Products
+export default Pooular
